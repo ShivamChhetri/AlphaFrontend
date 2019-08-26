@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+$back_color: rgba(207, 204, 204, 0.5);
+$shadow: 10px 10px 10px rgba(207, 204, 204, 1);
+$shadow_hover: 10px 10px 10px rgba(100, 100, 100, 1);
+body{
+    margin-top:70px;
+    background-color: $back_color;
+    z-index: -10;
+}
+.customBox{
+    // border: 1px solid black;
+    box-shadow: $shadow;
+    border-radius: 5px;
+    background-color: white;
+}
+.customBox:hover{
+    box-shadow: $shadow_hover;
+}
